@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\301133339_liu_lab3.props" />
+</Project>

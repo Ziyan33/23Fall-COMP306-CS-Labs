@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BookResearcherApi_ver2.props" />
+</Project>

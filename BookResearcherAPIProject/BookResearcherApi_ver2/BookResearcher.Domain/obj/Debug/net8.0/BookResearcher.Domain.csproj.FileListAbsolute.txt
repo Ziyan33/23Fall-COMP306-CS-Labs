@@ -1,0 +1,29 @@
+C:\Users\14129\Desktop\API_Groupproject\BookResearcherApi_ver2\BookResearcher.Domain\bin\Debug\net8.0\BookResearcher.Domain.deps.json
+C:\Users\14129\Desktop\API_Groupproject\BookResearcherApi_ver2\BookResearcher.Domain\bin\Debug\net8.0\BookResearcher.Domain.runtimeconfig.json
+C:\Users\14129\Desktop\API_Groupproject\BookResearcherApi_ver2\BookResearcher.Domain\bin\Debug\net8.0\BookResearcher.Domain.dll
+C:\Users\14129\Desktop\API_Groupproject\BookResearcherApi_ver2\BookResearcher.Domain\bin\Debug\net8.0\BookResearcher.Domain.pdb
+C:\Users\14129\Desktop\API_Groupproject\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\BookResearcher.Domain.csproj.AssemblyReference.cache
+C:\Users\14129\Desktop\API_Groupproject\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\BookResearcher.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\14129\Desktop\API_Groupproject\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\BookResearcher.Domain.AssemblyInfoInputs.cache
+C:\Users\14129\Desktop\API_Groupproject\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\BookResearcher.Domain.AssemblyInfo.cs
+C:\Users\14129\Desktop\API_Groupproject\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\BookResearcher.Domain.csproj.CoreCompileInputs.cache
+C:\Users\14129\Desktop\API_Groupproject\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\BookResearcher.Domain.sourcelink.json
+C:\Users\14129\Desktop\API_Groupproject\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\BookResearcher.Domain.dll
+C:\Users\14129\Desktop\API_Groupproject\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\refint\BookResearcher.Domain.dll
+C:\Users\14129\Desktop\API_Groupproject\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\BookResearcher.Domain.pdb
+C:\Users\14129\Desktop\API_Groupproject\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\BookResearcher.Domain.genruntimeconfig.cache
+C:\Users\14129\Desktop\API_Groupproject\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\ref\BookResearcher.Domain.dll
+C:\Users\14129\Desktop\Group 9 - API project\BookResearcherApi_ver2\BookResearcher.Domain\bin\Debug\net8.0\BookResearcher.Domain.deps.json
+C:\Users\14129\Desktop\Group 9 - API project\BookResearcherApi_ver2\BookResearcher.Domain\bin\Debug\net8.0\BookResearcher.Domain.runtimeconfig.json
+C:\Users\14129\Desktop\Group 9 - API project\BookResearcherApi_ver2\BookResearcher.Domain\bin\Debug\net8.0\BookResearcher.Domain.dll
+C:\Users\14129\Desktop\Group 9 - API project\BookResearcherApi_ver2\BookResearcher.Domain\bin\Debug\net8.0\BookResearcher.Domain.pdb
+C:\Users\14129\Desktop\Group 9 - API project\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\BookResearcher.Domain.csproj.AssemblyReference.cache
+C:\Users\14129\Desktop\Group 9 - API project\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\BookResearcher.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\14129\Desktop\Group 9 - API project\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\BookResearcher.Domain.AssemblyInfoInputs.cache
+C:\Users\14129\Desktop\Group 9 - API project\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\BookResearcher.Domain.AssemblyInfo.cs
+C:\Users\14129\Desktop\Group 9 - API project\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\BookResearcher.Domain.csproj.CoreCompileInputs.cache
+C:\Users\14129\Desktop\Group 9 - API project\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\BookResearcher.Domain.dll
+C:\Users\14129\Desktop\Group 9 - API project\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\refint\BookResearcher.Domain.dll
+C:\Users\14129\Desktop\Group 9 - API project\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\BookResearcher.Domain.pdb
+C:\Users\14129\Desktop\Group 9 - API project\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\BookResearcher.Domain.genruntimeconfig.cache
+C:\Users\14129\Desktop\Group 9 - API project\BookResearcherApi_ver2\BookResearcher.Domain\obj\Debug\net8.0\ref\BookResearcher.Domain.dll

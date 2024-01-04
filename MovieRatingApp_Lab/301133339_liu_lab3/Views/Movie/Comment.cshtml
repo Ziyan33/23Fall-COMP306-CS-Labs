@@ -1,0 +1,57 @@
+﻿@model _301133339_liu_lab3.Models.CommentViewModel
+
+@{
+    ViewData["Title"] = "Rate And Review";
+}
+
+<h2>Rate And Review</h2>
+
+<div class="movie-info">
+    <h3>Movie Title: @Model.Title</h3>
+    <ul>
+        <li>Director: @Model.DirectorNames</li>
+        <li>Genre: @Model.Genre</li>
+        <li>Release Time: @Model.ReleaseTime.ToShortDateString()</li>
+    </ul>
+</div>
+
+<form asp-controller="Movie" asp-action="Comment" method="post">
+    <input type="hidden" asp-for="MovieId" />
+   
+    <input type="hidden" asp-for="Title" />
+    <input type="hidden" asp-for="DirectorNames" />
+    <input type="hidden" asp-for="Genre" />
+    <input type="hidden" asp-for="ReleaseTime" />
+    <div class="rating-section">
+        <label>Rating:</label>
+        <select asp-for="NewComment.Rating" class="rating-dropdown">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+    <div class="username-box">
+        <label>Username:</label>
+        <input type="text" asp-for="NewComment.Username" placeholder="Enter your username" />
+    </div>
+
+    <div class="comment-box">
+        <label>Comment:</label>
+        <textarea asp-for="NewComment.Text" placeholder="Type your review here..."></textarea>
+    </div>
+    <button type="submit" class="submit-comment">Submit</button>
+</form>
+
+<div class="comments-list">
+    <h3>List of Comment for that movie</h3>
+    @foreach (var comment in Model.Comments)
+    {
+        <div class="comment-item">
+            <span class="username">@comment.Username:</span>
+            <span class="comment-text">@comment.Text</span>
+            <span class="comment-rating">(Rating: @comment.Rating)</span>
+        </div>
+    }
+</div>

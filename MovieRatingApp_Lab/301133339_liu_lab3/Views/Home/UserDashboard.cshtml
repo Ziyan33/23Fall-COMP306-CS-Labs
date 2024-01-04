@@ -1,0 +1,74 @@
+﻿@model _301133339_liu_lab3.Models.UserDashboardModel
+
+@{
+    ViewData["Title"] = "User Dashboard";
+}
+
+<h2>User Dashboard</h2>
+<p>Welcome, @User.Identity.Name!</p> <!-- Display the current user's name -->
+<!-- Dropdowns for sorting -->
+<form method="get" action="SortMovies">
+    <div>
+        <label for="ratingSort">Rating:</label>
+        <select name="ratingSort" id="ratingSort">
+            <option value="highest">Highest</option>
+            <option value="lowest">Lowest</option>
+        </select>
+    </div>
+    <div>
+        <label for="genreSort">Genre:</label>
+        <select name="genreSort" id="genreSort">
+            <option value="all">All Genres</option>
+            <option value="action">Action</option>
+            <option value="adventure">Adventure</option>
+            <option value="comedy">Comedy</option>
+        </select>
+    </div>
+    <input type="submit" value="Sort">
+</form>
+@* <form asp-controller="Home" asp-action="FilterByGenre" method="get">
+    <select name="genreSort" onchange="this.form.submit()" placeholder>
+       <option value=" ">Select Genre</option> 
+        <option value="action">Action</option>
+        <option value="adventure">Adventure</option>
+        <option value="comedy">Comedy</option>
+        
+    </select>
+    <input type="submit" value="Sort" />
+</form> *@
+
+
+<!-- Display movies -->
+<div class="movie-container">
+    @if (Model.Movies.Any())
+    {
+        @foreach (var movie in Model.Movies)
+        {
+            <div class="movie-box" id="movie-@movie.movieId">
+                <h3>@movie.Title</h3>
+                <p>Genre: @movie.Genre</p>
+                <p>Rating: @movie.averageRating</p>
+                <div class="movie-actions">
+                    <!-- Delete functionality using AJAX -->
+                    <form action="javascript:void(0)" method="post" onsubmit="deleteMovie('@movie.movieId', '@movie.S3Key')">
+                        @Html.AntiForgeryToken()
+                        <button type="submit">Delete</button>
+                    </form>
+                    <a asp-action="ModifyMovie" asp-controller="Movie" asp-route-movieId="@movie.movieId" class="btn">Modify</a>
+
+                    <button class="btn" onclick="downloadMovie('@movie.movieId', '@movie.S3Key')">Download</button>
+
+                    <a href="@Url.Action("Comment", "Movie", new { movieId = movie.movieId })" class="btn">Comment</a>
+
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p>No movies added yet</p>
+    }
+</div>
+
+<!-- Add a Movie button -->
+<a href="@Url.Action("AddMovie", "Movie")" class="btn-add-movie">Add a Movie</a>

@@ -1,0 +1,39 @@
+﻿@model _301133339_liu_lab3.Models.AddMovieViewModel
+
+<h2>Add a New Movie</h2>
+
+<form asp-controller="Movie" asp-action="AddMovie" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="Title">Title:</label>
+        <input class="form-control" id="Title" name="Title" type="text" required />
+    </div>
+
+    <div class="form-group">
+        <label for="DirectorNames">Director(s):</label>
+        <input class="form-control" id="DirectorNames" name="DirectorNames" type="text" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Genre">Genre:</label>
+        <select class="form-control" id="Genre" name="Genre" required>
+            <!-- For simplicity, we will hard-code the genres. You might want to fetch these from your database in a real application. -->
+            <option value="Action">Action</option>
+            <option value="Adventure">Adventure</option>
+            <option value="Comedy">Comedy</option>
+            <!-- ... other genres ... -->
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="ReleaseTime">Release Date:</label>
+        <input class="form-control" id="ReleaseTime" name="ReleaseTime" type="date" required />
+    </div>
+
+    <div class="form-group">
+        <label for="MovieFile">Upload Movie:</label>
+        <input class="form-control-file" id="MovieFile" name="MovieFile" type="file" required />
+        <small class="form-text text-muted">Choose a movie file to upload from your computer.</small>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add</button>
+</form>

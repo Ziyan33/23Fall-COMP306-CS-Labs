@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookResearcherApi_ver2", "BookResearcherApi_ver2\BookResearcherApi_ver2.csproj", "{01F6CCB1-BA4E-4B6F-AF3D-50E76465EA37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookResearcher.Domain", "BookResearcher.Domain\BookResearcher.Domain.csproj", "{F3B3F07B-8555-4AF1-A29B-764E86834D24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01F6CCB1-BA4E-4B6F-AF3D-50E76465EA37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F6CCB1-BA4E-4B6F-AF3D-50E76465EA37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F6CCB1-BA4E-4B6F-AF3D-50E76465EA37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F6CCB1-BA4E-4B6F-AF3D-50E76465EA37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B3F07B-8555-4AF1-A29B-764E86834D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B3F07B-8555-4AF1-A29B-764E86834D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B3F07B-8555-4AF1-A29B-764E86834D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B3F07B-8555-4AF1-A29B-764E86834D24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E2EF80B-B282-4D2E-A7E6-E2CCFDD20C3A}
+	EndGlobalSection
+EndGlobal

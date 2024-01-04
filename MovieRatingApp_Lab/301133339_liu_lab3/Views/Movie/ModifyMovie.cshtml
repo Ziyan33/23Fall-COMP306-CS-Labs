@@ -1,0 +1,48 @@
+﻿@model _301133339_liu_lab3.Models.ModifyMovieViewModel
+
+<h2>Modify Movie</h2>
+
+<form asp-controller="Movie" asp-action="ModifyMovie" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+
+    <input type="hidden" asp-for="MovieId" />
+
+    <div class="form-group">
+        <label asp-for="Title">Title:</label>
+        <input asp-for="Title" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DirectorNames">Director(s):</label>
+        <input asp-for="DirectorNames" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Genre">Genre:</label>
+        <select asp-for="Genre" class="form-control" required>
+            <option value="Action">Action</option>
+            <option value="Adventure">Adventure</option>
+            <option value="Comedy">Comedy</option>
+            <!-- ... other genres ... -->
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ReleaseTime">Release Date:</label>
+        <input asp-for="ReleaseTime" class="form-control" type="date" required />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MovieFile">Change Movie Link:</label>
+        @if (!string.IsNullOrEmpty(Model.S3Key))
+        {
+            <p>You have chosen @Model.Title. <a href="@Model.S3Key" target="_blank">View movie</a>. Do you want to replace it?</p>
+        }
+        <input asp-for="MovieFile" class="form-control-file" type="file" />
+        <small class="form-text text-muted">Choose a movie file to upload from your computer.</small>
+    </div>
+
+
+
+    <button type="submit" class="btn btn-primary">Save changes</button>
+</form>
